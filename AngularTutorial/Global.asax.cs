@@ -30,6 +30,7 @@ namespace AngularTutorial
         {
             Database.SetInitializer(
                 new MigrateDatabaseToLatestVersion<TodoContext, Migrations.Configuration>());
+
         }
     }
 }
